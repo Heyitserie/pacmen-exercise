@@ -1,0 +1,97 @@
+body {
+    background-image: url(./images/pacmanbg.gif);
+    color: white;
+}
+
+#pacmanLogo {
+    margin: -60px auto -75px;
+    display: block;
+}
+
+#container {
+    width:auto;
+    height: 100vh;
+    border-style: solid;
+    border-color: white;
+    position: relative;
+}
+
+#buttons {
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+}
+
+#buttons > button {
+    text-align: center;
+    height: 35px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 64px;
+    cursor: pointer;
+}
+
+.orange {
+    background-color: rgb(255, 111, 0);
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+/* #controlCenter {
+    width: auto;
+    height: 10%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+}
+
+#buttons {
+    margin-right: 10px;
+    display:inline-flex;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100px;
+    height: 30px;
+}
+
+#buttons > button {
+    padding: 5%;
+    text-align: center;
+    height:max-content
+}
+
+button.controls {
+    font-family: monospace;
+    padding: 5px;
+    margin: 5%;
+    background-color: cadetblue;
+    color: whitesmoke;
+}
+
+button.reload {
+    font-family: monospace;
+    padding: 5px;
+    margin: 5%;
+    background-color: tomato;
+    color: white;
+} */
+
+
+
+#factoryFloor {
+    width: auto;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
